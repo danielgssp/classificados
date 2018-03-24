@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^inicio?$ ../view/index.php [NC,L]
+    RewriteRule ^como-anunciar?$ ../view/anunciar.php [NC,L]
+    RewriteRule ^veiculos?$ ../view/veiculos.php?id=15&sub=Acessórios%20p/%20autos [NC,L]
+</IfModule>
